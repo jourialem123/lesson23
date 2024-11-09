@@ -6,6 +6,20 @@
     <title>activity2</title>
 </head>
 <body>
-    
+    <h2>Array Methods in javascript</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var fruits=["Mango", "Apple", "Cherry", "Kiwi"];
+        document.getElementById("p1").innerHTML=fruits;
+        document.getElementById("p2").innerHTML=fruits.join("&");
+        /*you can add anything after the join*/
+   fruits.pop();
+   document.getElementById("p3").innerHTML=fruits;
+   fruits.push("Watermelon")
+   document.getElementById("p4").innerHTML=fruits;
+   </script>
 </body>
 </html>
